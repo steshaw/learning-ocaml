@@ -4,3 +4,9 @@ set -euo pipefail
 
 ocamlc hello.ml -o hello
 ocamldumpobj hello.cmo
+
+ocamlc factorial.ml -o factorial
+ocamldumpobj factorial.cmo
+
+ocamlc tail.ml -o tail
+ocamldumpobj tail.cmo
