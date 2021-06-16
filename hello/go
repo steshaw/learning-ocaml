@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+ocamlc hello.ml -o hello
+ocamldumpobj hello.cmo
