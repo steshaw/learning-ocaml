@@ -9,4 +9,4 @@ let factorial : int -> int = fun num ->
           helper num 1
 ;;
 
-printf "Factorial 6 ==> %d\n" (factorial 6)
+printf "factorial 6 ⇓ %d\n" (factorial 6)
